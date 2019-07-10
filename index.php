@@ -36,6 +36,9 @@
 				<button class="replayBtn btn btn-warning">Play Again</button>
 			</div>
 			
+			<!-- REMOVE THIS!!! -->
+			<button></button>
+			
 		</div>
 		
 		<script src='js/hangman.js'></script>
