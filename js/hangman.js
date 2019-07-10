@@ -114,6 +114,7 @@ function checkLetter(letter) {
 	if (positions.length > 0) {
 		updateWord(positions, letter);
 		
+		// If no blanks remaining, the player wins
 		if (!board.includes('_')) {
 			endGame(true);
 		}
@@ -123,6 +124,7 @@ function checkLetter(letter) {
 		updateMan();
 	}
 	
+	// If no guesses remaining, player loses
 	if (remainingGuesses <= 0) {
 		endGame(false);
 	}
