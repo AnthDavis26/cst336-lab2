@@ -21,6 +21,9 @@
 			</header>
 			
 			<div id="word"></div>
+			
+			<button class="hintBtn btn btn-warning">GET HINT (lose a point)</button>
+			
 			<div id="letters"></div>
 			
 			<div id="man">
@@ -35,9 +38,6 @@
 				<h2>You Lost!</h2>
 				<button class="replayBtn btn btn-warning">Play Again</button>
 			</div>
-			
-			<!-- REMOVE THIS!!! -->
-			<button></button>
 			
 		</div>
 		
