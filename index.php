@@ -16,15 +16,17 @@
     <body>
 		<div class='container text-center'>
 			<header>
-				<h1>Hangman</h1>
+				<h1>HANGMAN</h1>
 				<h4>Javascript Edition</h4>
 			</header>
 			
 			<div id="word"></div>
 			
-			<button class="hintBtn btn btn-warning">GET HINT (lose a point)</button>
+			<button class="hintBtn btn btn-danger">GET HINT (lose a point)</button>
 			
 			<div id="letters"></div>
+			
+			<div id="points-remaining"></div>
 			
 			<div id="man">
 				<img src="img/stick_0.png" id="hangImg" />
@@ -32,10 +34,12 @@
 			
 			<div id="won">
 				<h2>You Won!</h2>
+				<h3>You just saved this disgusting creature.</h3>
 				<button class="replayBtn btn btn-success">Play Again</button>
 			</div>
 			<div id="lost">
 				<h2>You Lost!</h2>
+				<h3>You just killed this disgusting creature.</h3>
 				<button class="replayBtn btn btn-warning">Play Again</button>
 			</div>
 			

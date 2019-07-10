@@ -3,7 +3,7 @@
 }
 
 #word, #letters {
-	padding: 20px 0px;
+	padding: 25px 0px;
 }
 
 #man {
@@ -20,10 +20,28 @@
 }
 
 .hint {
-	font-size: 0.6em !important;
+	font-size: 0.8em !important;
 }
 
 .btn {
-	padding: 7px 7px !important;
-	margin: 0px 2px;
+	padding: 2px 8px !important;
+	margin: 2px 2px;
+}
+
+
+#won .btn, #lost .btn {
+	font-size:3em;
+}
+
+#won {
+	color: green;
+}
+
+#lost {
+	color:red;
+}
+
+header {
+	font-weight: bold;
+	font-family: "Times New Roman";
 }
